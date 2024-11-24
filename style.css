@@ -1,0 +1,1142 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAV */
+
+.nav_wrapper {
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  background-color: #383230;
+  border: 1px solid black;
+}
+
+.nav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 849px;
+  height: 30px;
+  margin: auto;
+}
+
+.nav_title {
+  /* Bundle up. */
+
+  width: 70px;
+  height: 18px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  /* identical to box height, or 164% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.nav_link {
+  /* Membership */
+
+  width: 70px;
+  height: 12px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* MAIN */
+
+.main_wrapper {
+  width: 100%;
+  height: 61px;
+}
+.main_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link {
+  width: 54px;
+  height: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  color: #383230;
+}
+
+/* title */
+
+.title_wrapper {
+  margin: auto;
+  width: 1200px;
+  height: 236px;
+  background-color: #f9f7f4;
+}
+
+.title_glav_title {
+  position: absolute;
+  /* Luxury without labels. */
+  margin-left: 335px;
+  margin-top: 50px;
+  width: 490px;
+  height: 77px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 77px;
+  /* identical to box height, or 160% */
+  letter-spacing: 3.2px;
+
+  color: #000000;
+}
+
+/* BCK */
+
+.bkg_box {
+  background-image: url("./img/glav_phone.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 1200px;
+  margin-top: 50px;
+  height: 640px;
+}
+
+.bkc_text {
+  /* Unbranded luxury-grade essentials from the same manufacturers as your favorite brands. No logos, no markups. */
+
+  width: 590px;
+  height: 144px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  /* or 141% */
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  padding: 25px 0;
+
+  color: #000000;
+}
+
+.bkc_link {
+  /* Learn More */
+  padding: 100px 0;
+  width: 76px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  margin: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+}
+
+.bkc_wrapper {
+  width: 1200px;
+  height: 365px;
+
+  margin: auto;
+}
+
+/* HEAD */
+
+.head_wrapper {
+  /* Rectangle */
+
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  margin-top: 650px;
+
+  background: #f9f7f4;
+  border-radius: 0px;
+}
+.head_img_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.head_title {
+  /* Skincare Saviors */
+
+  width: 164px;
+  height: 34px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height, or 134% */
+  letter-spacing: 0.7px;
+
+  color: #000000;
+}
+
+.head_text {
+  /* Upgrade your routine with prestige formulas for every skin type. */
+
+  width: 430px;
+  height: 23px;
+
+  font-family: "Inter";
+  font-style: normal;
+  padding: 45px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 160% */
+
+  color: #555555;
+}
+
+.head_img {
+  width: 500px;
+  height: 333px;
+}
+
+.head_glav_box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ASIDE */
+
+.asd_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.asd_wrapper {
+  width: 1200px;
+  height: 595px;
+  top: 1982px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 50px auto;
+}
+
+.asd_title {
+  padding: 15px 15px;
+  /* New arrivals. */
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+  /* identical to box height, or 160% */
+  letter-spacing: 2.4px;
+
+  color: #000000;
+}
+
+.asd_text {
+  /* Explore new-in products and future bestsellers. */
+
+  width: 347px;
+  height: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 10px;
+  margin-top: 130px;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 171% */
+
+  color: #000000;
+}
+
+.asd_btn {
+  margin-left: 15px;
+  width: 121px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+
+  margin-top: 120px;
+  /* identical to box height, or 108% */
+  text-align: center;
+
+  color: #000000;
+
+  box-sizing: border-box;
+  background-color: inherit;
+
+  width: 153px;
+  height: 42px;
+
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+
+.glav_box {
+  display: flex;
+  gap: 20px;
+}
+
+.box_left,
+.box_right {
+  /* Rectangle */
+
+  width: 289px;
+  height: 435px;
+
+  border: 1px solid #e0dbd2;
+  border-radius: 0px;
+}
+
+.box_title {
+  /* 14k Solid Gold Interlocking Necklace */
+
+  width: 222px;
+  height: 20px;
+  padding: 20px 20px;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 137% */
+  letter-spacing: 0.4px;
+
+  color: #383230;
+}
+
+.box_text1 {
+  /* Same manufacturer as */
+
+  width: 133px;
+  height: 12px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  color: #8c8c8c;
+}
+
+.box_text2 {
+  /* Van Cleef */
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 160% */
+
+  color: #383230;
+}
+.box_text3 {
+  /* 350 */
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.box_sp1 {
+  /* 2 Colors */
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+  text-transform: uppercase;
+
+  color: #8c8c8c;
+}
+
+.mini_box {
+  /* Rectangle */
+
+  /* New */
+
+  position: absolute;
+  width: 21px;
+  margin-left: 5px;
+  height: 12px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+  text-transform: uppercase;
+
+  color: #000000;
+
+  width: 33px;
+  height: 18px;
+
+  background: #ffffff;
+  border-radius: 0px;
+}
+
+/* SECTION */
+
+.sec_wrapper {
+  width: 1200px;
+  height: 1027px;
+  margin: auto;
+}
+
+.sec_title {
+  /* HIIT Refresh */
+
+  padding: 15px 15px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 48px;
+  /* identical to box height, or 155% */
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.sec_text {
+  /* Take your workouts to the next level with supremely soft activewear that's made to move with you. */
+
+  width: 740px;
+  height: 26px;
+  padding: 15px 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 171% */
+
+  color: #000000;
+}
+
+.sec_btn {
+  /* Discover More */
+
+  width: 98px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  background-color: inherit;
+  text-align: center;
+
+  color: #000000;
+
+  box-sizing: border-box;
+
+  width: 130px;
+  height: 32px;
+  margin-top: 15px;
+
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+
+.sec_mini_title_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ 
+
+.glav_img_box {
+  display: flex;
+  margin-top: 50px;
+  gap: 150px;
+}
+
+.img_box_wrapper {
+  width: 500px;
+  height: 734px;
+}
+
+.glav_img_blok {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.more_wrapper {
+  width: 1200px;
+
+  height: 397px;
+  margin: 60px auto;
+}
+
+.more_img_box {
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.more_img {
+  width: 140px;
+  height: 187px;
+}
+
+.more_text {
+  /* Women's Clothing */
+
+  padding: 15px 0;
+  width: 106px;
+  height: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+}
+
+.ktch_wrapper {
+  width: 1200px;
+  height: 510px;
+  margin: auto;
+}
+
+.ktch_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ktch_title {
+  /* Cookware to Count On */
+
+  width: 248px;
+  height: 34px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height, or 134% */
+  letter-spacing: 0.7px;
+  padding: 25px 0;
+  color: #000000;
+}
+
+.ktch_text {
+  /* Upgrade your meal prep and stick to your resolutions with Italic cookware. */
+
+  width: 497px;
+  height: 23px;
+
+  padding: 25px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 160% */
+
+  color: #555555;
+}
+
+.intro_wrapper {
+  width: 1200px;
+  height: 640px;
+
+  margin: 100px auto;
+}
+
+.intro_title {
+  padding: 25px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+
+  color: #817a70;
+}
+
+.intro_text {
+  /* The capstone of luxury, with each piece representing the pinnacle of fine materials, master craftsmanship, and timeless design. */
+
+  width: 380px;
+  height: 288px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  /* or 141% */
+  letter-spacing: 2px;
+  padding: 25px 0;
+  color: #000000;
+}
+
+.intro_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro_btn {
+  margin-top: 30px;
+  width: 69px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: center;
+
+  color: #ffffff;
+
+  width: 99px;
+  height: 40px;
+
+  background: #383230;
+  border-radius: 0px;
+}
+
+.trend_wrapper {
+  width: 1200px;
+  height: 585px;
+  margin: auto;
+}
+
+.trend_title {
+  /* Trending */
+
+  width: 108px;
+  height: 39px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height, or 137% */
+  letter-spacing: 0.8px;
+
+  color: #383230;
+}
+
+.trend_img_box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.img_blok {
+  margin-top: 25px;
+  width: 202px;
+  height: 367px;
+  border: 1px solid #e0dbd2;
+}
+
+.press_wrapper {
+  width: 1200px;
+  height: 458px;
+  margin: auto;
+}
+
+.press_glav_title {
+  /* Impressing the press. */
+
+  width: 170px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin: auto;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #817a70;
+}
+
+.press_glav_text {
+  /* “Luxury goods from Prada and Gucci are marked up because of their branding. This startup will sell them to you without the labels.” */
+  margin: auto;
+  padding: 15px 0;
+  width: 724px;
+  height: 144px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  /* or 141% */
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.press_img {
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+.our_wrapper {
+  /* Rectangle */
+
+  margin: auto;
+  width: 1200px;
+  height: 394px;
+
+  background: #f9f7f4;
+  border-radius: 0px;
+}
+
+.our_minitext {
+  /* Our commitment to quality. */
+
+  padding: 20px 0;
+  width: 202px;
+  margin-left: 25px;
+  height: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+
+  color: #817a70;
+}
+
+.our_text {
+  margin: auto;
+
+  /* It all starts with our goal of making luxury-level products accessible to all. Whether it’s sourcing Grade A cashmere from Mongolia or devoting hundreds of hours of wear-testing to develop the perfect leather sneakers — we won’t sell it until we love it. */
+  margin-left: 25px;
+  width: 1032px;
+  margin-top: 50px;
+  height: 192px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 137% */
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.sharf_box {
+  background-image: url("./img/sharf_phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 30px;
+  height: 1200px;
+  height: 460px;
+}
+
+.textbox_wrapper {
+  width: 1200px;
+  height: 290px;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.glav_textbox_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textbox_title {
+  /* Atelier Quality */
+
+  width: 141px;
+  height: 29px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height, or 120% */
+
+  color: #383230;
+}
+
+.textbox_text {
+  /* Responsibly produced by the same manufacturers as top luxury brands to ensure world-class construction. */
+
+  width: 302px;
+  height: 72px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #817a70;
+}
+
+.footer_wrapper {
+  width: 100%;
+  height: 564px;
+  margin: auto;
+  background-color: #383230;
+}
+
+.footer_title {
+  /* Stay in touch. */
+
+  width: 256px;
+  height: 58px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  margin-left: 20px;
+  line-height: 58px;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.footer_left {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+.footer_text {
+  /* Sign up to be the first to know about new collections and exclusive events. */
+
+  width: 313px;
+
+  height: 87px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* or 120% */
+  letter-spacing: 0.6px;
+  padding: 50px 25px;
+
+  color: #e0dbd2;
+}
+
+.footer_btn {
+  /* Submit */
+
+  width: 50px;
+  border: none;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: center;
+
+  color: #383230;
+
+  width: 77px;
+  height: 48px;
+
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.footer_submit_box {
+  display: flex;
+  align-items: center;
+  padding: 100px 25px;
+  gap: 25px;
+}
+
+.footer_glav_box {
+  display: flex;
+  align-items: center;
+
+  gap: 500px;
+}
+
+.footer_box {
+  display: flex;
+
+  gap: 150px;
+}
+
+.item {
+  /* FAQs */
+
+  width: 34px;
+  height: 14px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 15px 0;
+  margin-top: 15px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #e0dbd2;
+}
+
+h2 {
+  /* Services */
+
+  padding: 15px 0;
+  width: 64px;
+  height: 14px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  /* identical to box height, or 108% */
+  text-transform: uppercase;
+
+  color: #817a70;
+}
+
+.art_wrapper {
+  width: 1200px;
+  height: 683px;
+  background-color: #f9f7f4;
+  margin: auto;
+}
+
+.art_title {
+  /* What we value most. */
+
+  padding: 25px 45px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+.art_box_title {
+  /* Atelier-Grade Materials */
+  margin-left: 15px;
+
+  width: 207px;
+  height: 29px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  /* identical to box height, or 137% */
+  letter-spacing: 0.6px;
+
+  color: #000000;
+}
+
+.art_text {
+  /* Fine, rare materials for optimal performance and durability. */
+
+  width: 201px;
+  height: 45px;
+  margin-left: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 13px;
+  line-height: 22px;
+  /* or 172% */
+
+  color: #000000;
+}
+
+.art_glav_box {
+  display: flex;
+  gap: 120px;
+  margin-top: 70px;
+  margin-left: 25px;
+}
+
+.art_img {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.art_left,
+.art_right,
+.art_right1 {
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  width: 333px;
+  height: 435px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+
+.like_wrapper {
+  width: 1200px;
+
+  height: 510px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.like_box {
+  display: flex;
+  gap: 200px;
+}
+
+.like_title {
+  /* The Pet Edit */
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height, or 134% */
+  letter-spacing: 0.7px;
+
+  color: #000000;
+}
+
+.like_text {
+  /* Your best friend deserves the best. Pamper them with Italic’s pet essentials. */
+  margin-top: 45px;
+  width: 431px;
+  height: 45px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+
+  color: #555555;
+}
+
+.last_wrapper {
+  margin-top: 100px;
+  width: 1200px;
+  height: 590px;
+  margin: auto;
+}
+ 
+
+ .last_glav_wrapper{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+ }
+
+
+ 
